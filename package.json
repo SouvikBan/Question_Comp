@@ -1,0 +1,47 @@
+{
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "node_modules/webpack/bin/webpack.js --progress --config build/webpack.config.js",
+        "build": "node build/build.js",
+        "build-docs": "node build/build-docs.js",
+        "build-main": "node build/build-main.js"
+    },
+    "dependencies": {
+        "vue": "*"
+    },
+    "devDependencies": {
+        "babel-core": "*",
+        "babel-helper-vue-jsx-merge-props": "*",
+        "babel-loader": "*",
+        "babel-plugin-syntax-jsx": "*",
+        "babel-plugin-transform-runtime": "*",
+        "babel-plugin-transform-vue-jsx": "*",
+        "babel-preset-env": "*",
+        "babel-preset-stage-2": "*",
+        "chalk": "*",
+        "copy-webpack-plugin": "*",
+        "css-loader": "*",
+        "extract-text-webpack-plugin": "*",
+        "file-loader": "*",
+        "friendly-errors-webpack-plugin": "*",
+        "html-webpack-plugin": "*",
+        "node-notifier": "*",
+        "optimize-css-assets-webpack-plugin": "*",
+        "portfinder": "*",
+        "postcss-import": "*",
+        "postcss-loader": "*",
+        "postcss-url": "*",
+        "semver": "*",
+        "shelljs": "*",
+        "uglifyjs-webpack-plugin": "*",
+        "url-loader": "*",
+        "vue-loader": "*",
+        "vue-style-loader": "*",
+        "vue-template-compiler": "*",
+        "webpack": "*",
+        "webpack-bundle-analyzer": "*",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "*",
+        "webpack-merge": "*"
+    }
+}
